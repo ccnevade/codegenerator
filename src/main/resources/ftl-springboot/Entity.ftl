@@ -15,7 +15,7 @@ public class ${tableData.className} {
 		@Id
 		@GeneratedValue
 		</#if>
-		private ${column.fieldType} ${column.columnName};
+		private ${column.fieldType} ${column.fieldName};
 	</#list>
 
 	
